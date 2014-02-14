@@ -5,10 +5,10 @@ Cross browser placeholder support that uses CSS3 placeholder attribute where ava
 
 
 usage:
-new placeholder("placeholder text", "elementid");
+<pre>new placeholder("placeholder text", "elementid");</pre>
 
 or 
 
-new placeholder("placeholder text", document.getElementById("id"));
+<pre>new placeholder("placeholder text", document.getElementById("id"));</pre>
 
 
