@@ -1,7 +1,7 @@
 placeholder
 ===========
 
-Cross browser placeholder support that uses CSS3 placeholder attribute where available and a psuedo placeholder if not.
+Cross browser placeholder support for input text boxes that uses CSS3 placeholder attribute where available and a psuedo placeholder if not. Tested back to IE6.
 
 
 usage:
