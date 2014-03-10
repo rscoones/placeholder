@@ -6,7 +6,7 @@
     this.placeholder = placeholder;
 
     function _createPlaceholder() {
-        var placeholderSupport = ("placeholder" in connectedId);
+        var placeholderSupport = ("placeholder" in document.createElement('input'));
         if (connectedId && placeholder !== "") {
             if (placeholderSupport) {
                 _setupCSS3Placeholder();
