@@ -1,4 +1,4 @@
-if (!window) {
+if (!window && module) {
   module.exports = placeholder;
 };
 
