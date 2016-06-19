@@ -1,4 +1,8 @@
-﻿function placeholder(placeholder, connectedId) {
+if (!window) {
+  module.exports = placeholder;
+};
+
+function placeholder(placeholder, connectedId) {
     if (typeof connectedId === "string") {
         connectedId = document.getElementById(connectedId);
     }
@@ -45,6 +49,6 @@
             connectedId.style.color = "";
         }
     }
-    
+
     _createPlaceholder();
 };

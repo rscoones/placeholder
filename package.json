@@ -1,0 +1,25 @@
+{
+  "name": "rs-placeholder",
+  "version": "1.0.0",
+  "description": "Simple html placeholder attribute polyfill for old browsers",
+  "main": "placeholder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rscoones/placeholder.git"
+  },
+  "keywords": [
+    "html",
+    "attribute",
+    "placeholder",
+    "polyfill"
+  ],
+  "author": "Richard Scoones <richardscoones@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rscoones/placeholder/issues"
+  },
+  "homepage": "https://github.com/rscoones/placeholder#readme"
+}
